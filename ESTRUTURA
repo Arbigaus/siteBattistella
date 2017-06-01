@@ -1,0 +1,20 @@
+ESTRUTURA
+
+Banco de Dados
+
+- arquivos
+ - id
+ - nome
+ - url
+ - data
+ - id_tipo_doc
+
+- tipo_doc
+ - id
+ - nome
+
+- usuarios
+ - id
+ - nome
+ - email
+ - senha

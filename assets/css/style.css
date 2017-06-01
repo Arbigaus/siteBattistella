@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.collapsible-header {
+	text-decoration: bold;
+}
+
+.logo_img {
+	width: 200px;
+	margin-left: 10px;
+}
+
+.ul_documentos {
+	padding-left: 30px;
+}
+
+.li_documentos {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
