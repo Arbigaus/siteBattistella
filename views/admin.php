@@ -3,7 +3,19 @@
 		header("Location: /login");
 	}
 ?>
-<div>
+
+<div class="row ">
+	<div class="col s12">
+		<ul class="tabs">
+			<li class="tab col s4"><a href="#documentos">Documentos</a></li>
+			<li class="tab col s4"><a href="#categorias">Categorias</a></li>
+			<li class="tab col s4"><a href="#usuarios">Usuarios</a></li>	
+		</ul>
+	</div>
+</div>
+
+
+<div id="documentos">
 	<h4>Enviar documento</h4>
 	<div class="row">
 		<form method="POST" class="col s12" enctype="multipart/form-data">
@@ -48,8 +60,7 @@
 			
 		</form>
 	</div>
-</div>
-<div>
+
 	<table>
 		<thead>
 			<tr>
@@ -72,6 +83,8 @@
 	<li class="divider"></li>
 	<li class="divider"></li>
 	<li class="divider"></li>
+</div>
+<div id="categorias">
 	<h4>Editar Categorias</h4>
 	<div>
 		<table>
@@ -105,7 +118,9 @@
 		</table>
 		
 	</div>
+</div>
 
+<div id="usuarios">
 		<h4>Editar Usuários</h4>
 	<div>
 		<table>
